@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+}
+span {
+    margin: 20px 20px;
+    padding: 5px 5px;
+    
+}
+header {
+    background-color: rgb(241, 252, 85);
+}
+
+h1 {
+    color:black;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+  }
+  .flex-container > div {
+    background-color: #ffffff;
+    margin: 20px;
+    color:black;
+    text-align: center;
+    font-size: 14px;
+    font-style: inherit;
+  }

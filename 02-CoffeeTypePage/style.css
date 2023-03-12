@@ -1,0 +1,57 @@
+
+    
+ 
+  
+.photo1 img {
+
+    width: 160px;
+    
+
+}
+
+
+h3{
+    padding-top: 50px;
+}
+a {
+    text-decoration: none;
+}
+
+
+.photo3 img{
+    width: 300px;
+}
+.text1 {
+    text-align: left;
+    
+    
+}
+.photo4 img{
+    width: 300px;
+}
+.text2 {
+    text-align: left;
+    
+}
+.photo5 img{
+    width: 300px ;
+}
+h2 {
+    padding-bottom: 40px;
+    
+}
+
+
+
+p{
+    padding-top: 40px;
+    
+}
+
+h4{
+    padding-top: 10px;
+}
+pre {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
