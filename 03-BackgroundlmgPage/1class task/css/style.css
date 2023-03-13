@@ -1,0 +1,61 @@
+
+div {
+   height: 100vh;
+   width: 100vw;
+   border: 1px solid red;
+    
+    
+  }
+
+    
+
+
+h1 {
+    text-align: center;
+    top: 50%;
+    position: relative;
+    color: white;
+    font-size: 50px;
+    
+   
+    
+    }
+div.image1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    background-image: url(../imgs/big.jpeg);
+    background-color: brown;
+    
+   
+   
+
+}
+div.image2 {
+    background-image: url(../imgs/big.jpeg);
+    background-color: yellow;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     opacity: 0.5;
+   
+}
+div.image3 {
+    background-image: url(../imgs/folder-img.jpeg);
+    background-color: purple;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+div.image4 {
+    background-color: blue;
+    height: 600px;
+    background-image: linear-gradient(to top left, rgb(175, 175, 235),rgb(185, 16, 185),rgb(219, 20, 20),rgb(231, 228, 6));
+}
+.gradient {
+    background-image: linear-gradient(to top , yellow , red, purple)
+}

@@ -1,0 +1,67 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 123, 45);
+    background-image: linear-gradient(red, yellow);
+   
+   
+  }
+ h1{
+    text-align: center;
+    color: white;
+ }
+
+ 
+ .topnav a {
+ 
+    color: white;
+    text-align: center;
+    padding: 5px 280px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px 10px;
+    border: 1px solid white ;
+  }
+  
+  .topnav a:hover {
+    background-color: white;
+    color:rgb(243, 2, 2);
+  }
+  .photo1 {
+   margin-top: 10px;
+  }
+  .text1 {
+    text-align: left;
+    margin-bottom: 20px;
+    color: white;
+  }
+  .fet {
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .h2{
+    text-align: left;
+    color: white;
+    
+  }
+  .get {
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+  }
+  h3 {
+    color: white;
+  }
+  a:link {
+    text-decoration: none;
+    
+  }
+  a{
+    color: white;
+  }
+  span{
+   color: white;
+   font-size: 20px;
+  }
