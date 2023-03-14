@@ -41,9 +41,9 @@ body {
     text-decoration: none;
     font-size: 20px;
   }
-  .h2{
-    text-align: left;
-    color: white;
+  h2{
+    text-align: center;
+    color: red;
     
   }
   .get {
@@ -64,4 +64,8 @@ body {
   span{
    color: white;
    font-size: 20px;
+  }
+  td {
+    color: red;
+    font-size: 20px;
   }
