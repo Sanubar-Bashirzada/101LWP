@@ -1,0 +1,143 @@
+.flex1{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    width: 100px;
+    height: 100px;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    
+    
+    left: 101px;
+    top: 202px;
+
+}
+.flex2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    width: 100px;
+    height: 100px;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate; 
+    top: 102px;
+    
+    
+  }
+
+.flex3{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  width: 100px;
+  height: 100px;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  margin-left: 101px;
+  top: 100px;
+  
+}
+.flex4{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  width: 100px;
+  height: 100px;
+ 
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  
+}
+  .box1 {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(62, 209, 4);
+    transition: 1s;
+    position: absolute;
+    top: 50px;
+    
+    
+   
+   
+   
+  }
+  .box2 {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    transition: 1s;
+    position: absolute;
+    left: 51px;
+    top: 50px;
+  }
+  .box3 {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 238, 0);
+    transition: 1s;
+    position: absolute;
+   
+   
+  }
+  .box4 {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 0, 0);
+    transition: 1s;
+    position: absolute;
+    left: 51px;
+    
+    
+  }
+ section:hover .flex1 {
+    transform: rotate(-90deg);
+   
+    
+    
+   
+  }
+ section:hover .flex2{
+    transform: rotate(90deg);
+    
+    
+   
+}
+section:hover .flex3 {
+    transform: rotate(90deg);
+    
+    
+}
+section:hover .flex4 {
+    transform: rotate(-90deg);
+   
+       
+}
+section .flex1 {
+  transition: 1s;
+ 
+  
+  
+ 
+}
+section .flex2{
+  transition: 1s;
+  
+  
+ 
+}
+section .flex3 {
+  transition: 1s;
+  
+  
+}
+section .flex4 {
+  transition: 1s;
+}
