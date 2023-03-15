@@ -1,0 +1,61 @@
+.big {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.c{
+    border: 1px solid black;
+    height: 100px;
+    color: white;
+    font-size: 40px; 
+    background-color: red;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+.c1{
+   background-color:red ;
+   order: 3;
+}
+
+.c2{
+   background-color:orange;
+   order: 4;
+}
+.c3{
+   background-color: rgb(252, 252, 63) ;
+   order: 9;
+}
+.c4{
+   background-color:rgb(67, 255, 67);
+   order: 5;
+}
+.c5{
+   background-color:rgb(243, 148, 163);
+   order: 1;
+}
+.c6{
+  background-color:   rgb(241, 67, 241);
+  order: 6;
+}
+.c7{
+   background-color: purple ;
+   order: 10;
+}
+.c8 {
+   background-color:aqua;
+   order: 7;   
+}
+.c9 {
+   background-color: rgb(27, 212, 212);
+   order: 2; 
+}
+.c10 {
+   background-color:blue;
+   order: 8;
+}

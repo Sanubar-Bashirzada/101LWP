@@ -1,0 +1,54 @@
+.big {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;  
+}
+
+.c{
+     border: 1px solid black;
+     height: 70px;
+     color: white;
+     font-size: 25px; 
+     background-color: red;
+     flex-grow: 3;
+     display: flex;
+     justify-content: center;
+}
+
+.c1{
+    background-color:orangered ;
+    width:60px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;  
+}
+
+.c2{
+    background-color: yellow;
+    width: 100px;
+}
+
+.c3{
+    background-color: green;
+    width:60px ;
+    flex-direction: column;
+    text-align: center;
+}
+
+.c4{
+    background-color: blue;
+    width:60px ;
+    flex-direction: column;
+    text-align: center;
+}
+
+.c5{
+    background-color: aqua;
+    width: 130px;
+}
+
+.c6{
+   background-color: rgb(233, 159, 183);
+   width: 60px;
+}
