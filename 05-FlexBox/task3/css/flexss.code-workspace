@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../flex wrap"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "flex wrap",
+		"liveServer.settings.port": 5501
+	}
+}

@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.nav {
+   
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height:60px ;
+    padding-top: 20px;
+}
+.text2 {
+    display: flex;
+    gap: 10px;
+}
+.big {
+    
+    background: #1D4350;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    height:800px ;
+    flex-direction: column;
+}
+.big2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+   
+   
+    
+    
+}
