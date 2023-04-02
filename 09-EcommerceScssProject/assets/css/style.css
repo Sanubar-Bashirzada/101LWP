@@ -708,12 +708,12 @@ footer .footright img {
   .threesection .cards3 {
     display: flex;
     flex-direction: column;
-    gap: 500px;
+    gap: 500px !important;
   }
   .foursection .cards4 {
     display: flex;
     flex-direction: column;
-    gap: 500px;
+    gap: 500px !important;
   }
   .fivesection {
     padding-bottom: 100px;

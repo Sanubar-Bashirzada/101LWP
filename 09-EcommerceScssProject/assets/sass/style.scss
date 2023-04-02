@@ -814,7 +814,7 @@ footer {
     .threesection {
         .cards3 {
             @include flx;
-            gap: 500px;
+            gap: 500px !important;
         }
 
     }
@@ -822,7 +822,7 @@ footer {
     .foursection {
         .cards4 {
             @include flx;
-            gap: 500px;
+            gap: 500px !important;
         }
     }
 
