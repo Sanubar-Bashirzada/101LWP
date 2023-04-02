@@ -57,7 +57,7 @@ section {
 .boxx {
     border: 1px solid rgb(255, 154, 59);
     width: 45px;
-    left: 294px;
+    left: 260px;
     top: 250px;
     position: absolute;
 }
@@ -95,6 +95,7 @@ section {
 
 .do {
     color: rgb(255, 154, 59);
+    text-shadow: 0 0 5px black;
 }
 
 .img1 {
@@ -158,7 +159,7 @@ section {
 .boxone {
     border: 1px solid rgb(255, 154, 59);
     width: 40px;
-    left: 140px;
+    left: 120px;
     position: relative;
 }
 
@@ -221,7 +222,7 @@ section {
 .boxtwo {
     border: 1px solid rgb(255, 154, 59);
     width: 40px;
-    left: 730px;
+    left: 650px;
     position: relative;
 }
 
@@ -268,7 +269,7 @@ section {
 .aboutbox {
     border: 1px solid rgb(255, 154, 59);
     width: 50px;
-    left: 700px;
+    left: 650px;
     position: relative;
 }
 
@@ -392,8 +393,12 @@ button:hover {
 
 .emojif {
     color: rgb(255, 154, 59);
+   
 }
 
 .ef:hover {
     color: white;
+}
+.ef {
+    right: 80px;
 }
