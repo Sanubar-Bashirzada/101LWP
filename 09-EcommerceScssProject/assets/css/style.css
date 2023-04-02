@@ -1,0 +1,775 @@
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  background: #007878;
+  color: white;
+  align-items: center;
+}
+
+.container {
+  width: 1128px;
+  margin: auto;
+}
+
+.navbar-brand {
+  padding-right: 300px;
+}
+
+.tarms {
+  display: flex;
+  gap: 10px;
+}
+
+.snobel {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.container-fluid .navbar-nav {
+  display: flex;
+}
+
+.nav3 .navbar-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.one {
+  background-color: #FFE2E0;
+  display: flex;
+  padding-bottom: 100px;
+}
+.one .right1 img {
+  position: absolute;
+  width: 30%;
+  right: 180px;
+}
+.one .left1 {
+  padding-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.one .left1 button {
+  width: 192px;
+  height: 52px;
+  background: #206363;
+  color: white;
+  border-radius: 20px;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.basket li {
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+}
+.basket i {
+  margin-right: 10px;
+}
+
+.icon .form-control {
+  position: relative;
+}
+.icon i {
+  position: absolute;
+  right: 440px;
+  bottom: 30px;
+}
+
+.nav4 {
+  background: #F7F7F7;
+}
+
+.bask {
+  margin-right: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bask li {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.bask a {
+  margin-right: 55px;
+}
+.bask i {
+  margin-right: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.two {
+  padding-top: 50px;
+  padding-bottom: 600px;
+}
+.two .cards {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.two .cards h1 {
+  font-size: 18px;
+}
+.two .card {
+  width: 264px;
+  height: 162px;
+}
+.two .card .card1 {
+  background-image: url(./../images/back1.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: auto 80%;
+}
+.two .card .card2 {
+  background-image: url(./../images/back2.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: auto 60%;
+}
+.two .card .card3 {
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: auto 80%;
+}
+.two .card .card4 {
+  background-image: url(./../images/back4.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: auto 60%;
+}
+.two .headfeat {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.two .cards2 {
+  display: flex;
+  gap: 377px;
+  flex-direction: row;
+}
+.two .cards2 .cardone {
+  width: 360px;
+  height: 508px;
+  position: absolute;
+  background: #F9F9F9;
+  border-radius: 8px;
+}
+.two .cards2 .cardone .hearticon {
+  position: absolute;
+  width: 5%;
+  left: 330px;
+}
+.two .cards2 .cardone .flx {
+  display: flex;
+  flex-direction: column;
+}
+.two .cards2 .cardone .flx p {
+  padding-top: 310px;
+  top: 10px;
+  left: 10px;
+  font-size: 16px;
+  font-family: "Rubik";
+  font-weight: 400;
+  line-height: 170%;
+}
+.two .cards2 .cardone .btn1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 8px;
+  width: 79px;
+  height: 32px;
+  border: 0px;
+  color: white;
+  background: #43D167;
+}
+.two .cards2 .cardone img {
+  position: absolute;
+  left: 75px;
+  width: 60%;
+}
+.two .cards2 .star {
+  display: flex;
+  top: 290px;
+  position: absolute;
+  color: #FFDD45;
+}
+.two .cards2 .heart1 {
+  position: absolute;
+  right: 10px;
+  color: #DF4244;
+}
+.two .cards2 .money {
+  color: #F75145;
+  font-weight: bold;
+}
+.two .cards2 .end1 {
+  width: 312px;
+  height: 48px;
+  margin-top: 30px;
+  border-radius: 8px;
+  margin-bottom: 80px;
+}
+.two .cardtwo {
+  width: 360px;
+  height: 508px;
+  position: absolute;
+  background: #F9F9F9;
+  border-radius: 8px;
+  margin-bottom: 80px;
+}
+.two .flx1 {
+  display: flex;
+  flex-direction: column;
+}
+.two .flx1 p {
+  padding-top: 310px;
+  top: 10px;
+  left: 10px;
+  font-size: 16px;
+  font-family: "Rubik";
+  font-weight: 400;
+  line-height: 170%;
+}
+.two img {
+  position: absolute;
+  left: 75px;
+  width: 60%;
+}
+.two .btn2 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 8px;
+  width: 79px;
+  height: 32px;
+  border: 0px;
+  color: white;
+  background: #DF4244;
+}
+.two .cardthree {
+  width: 360px;
+  height: 508px;
+  position: absolute;
+  background: #F9F9F9;
+  border-radius: 8px;
+  margin-bottom: 80px;
+}
+.two .hearticon {
+  position: absolute;
+  width: 5%;
+  left: 330px;
+}
+.two .flx2 {
+  display: flex;
+  flex-direction: column;
+}
+.two .flx2 p {
+  padding-top: 310px;
+  top: 10px;
+  left: 10px;
+  font-size: 16px;
+  font-family: "Rubik";
+  font-weight: 400;
+  line-height: 170%;
+}
+.two img {
+  position: absolute;
+  left: 75px;
+  width: 60%;
+}
+
+.smallsection {
+  background: #FFF7F7;
+}
+.smallsection .headfeat {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.threesection {
+  background: #FFF7F7;
+  padding-bottom: 600px;
+  display: flex;
+  flex-direction: row;
+}
+.threesection .cards3 {
+  margin-top: 50px;
+  display: flex;
+  gap: 378px;
+  flex-direction: row;
+}
+.threesection .cards3 .cardone {
+  width: 360px;
+  height: 508px;
+  position: absolute;
+  background: white;
+  border-radius: 8px;
+}
+.threesection .cards3 .cardone .hearticon {
+  position: absolute;
+  width: 5%;
+  left: 330px;
+  top: 10px;
+}
+.threesection .cards3 .cardone .flx {
+  display: flex;
+  flex-direction: column;
+}
+.threesection .cards3 .cardone .flx p {
+  padding-top: 310px;
+  top: 10px;
+  left: 10px;
+  font-size: 16px;
+  font-family: "Rubik";
+  font-weight: 400;
+  line-height: 170%;
+}
+.threesection .cards3 .cardone .btn1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 8px;
+  width: 79px;
+  height: 32px;
+  border: 0px;
+  color: white;
+  background: #43D167;
+}
+.threesection .cards3 .cardone img {
+  position: absolute;
+  left: 75px;
+  width: 60%;
+  top: 125px;
+}
+.threesection .cards3 .star {
+  display: flex;
+  top: 290px;
+  position: absolute;
+  color: #FFDD45;
+}
+.threesection .cards3 .heart1 {
+  position: absolute;
+  right: 10px;
+  color: #DF4244;
+}
+.threesection .cards3 .money {
+  color: #F75145;
+  font-weight: bold;
+}
+.threesection .cards3 .end1 {
+  width: 312px;
+  height: 48px;
+  margin-top: 30px;
+  border-radius: 8px;
+  margin-bottom: 80px;
+}
+.threesection .cardtwo {
+  width: 360px;
+  height: 508px;
+  position: absolute;
+  background: white;
+  border-radius: 8px;
+}
+.threesection .flx1 {
+  display: flex;
+  flex-direction: column;
+}
+.threesection .flx1 p {
+  padding-top: 310px;
+  top: 10px;
+  left: 10px;
+  font-size: 16px;
+  font-family: "Rubik";
+  font-weight: 400;
+  line-height: 170%;
+}
+.threesection img {
+  position: absolute;
+  left: 75px;
+  width: 70%;
+}
+.threesection .btn2 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 8px;
+  width: 79px;
+  height: 32px;
+  border: 0px;
+  color: white;
+  background: #DF4244;
+}
+.threesection .cardthree {
+  width: 360px;
+  height: 508px;
+  position: absolute;
+  background: white;
+  border-radius: 8px;
+}
+.threesection .flx2 {
+  display: flex;
+  flex-direction: column;
+}
+.threesection .flx2 p {
+  padding-top: 310px;
+  top: 10px;
+  left: 10px;
+  font-size: 16px;
+  font-family: "Rubik";
+  font-weight: 400;
+  line-height: 170%;
+}
+.threesection .flx2 .hearticon {
+  position: absolute;
+  width: 5%;
+  left: 330px;
+  top: 10px;
+}
+.threesection img {
+  position: absolute;
+  top: 95px;
+  left: 75px;
+  width: 60%;
+}
+.threesection .btn2 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 8px;
+  width: 79px;
+  height: 32px;
+  border: 0px;
+  color: white;
+  background: #DF4244;
+}
+
+.foursection {
+  padding-top: 80px;
+  padding-bottom: 600px;
+}
+.foursection .headfeat {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.foursection .cards4 {
+  display: flex;
+  gap: 377px;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.foursection .cards4 .cardone {
+  width: 360px;
+  height: 508px;
+  position: absolute;
+  background: #F9F9F9;
+  border-radius: 8px;
+}
+.foursection .cards4 .cardone .hearticon {
+  position: absolute;
+  width: 5%;
+  left: 330px;
+}
+.foursection .cards4 .cardone .flx {
+  display: flex;
+  flex-direction: column;
+}
+.foursection .cards4 .cardone .flx p {
+  padding-top: 310px;
+  top: 10px;
+  left: 10px;
+  font-size: 16px;
+  font-family: "Rubik";
+  font-weight: 400;
+  line-height: 170%;
+}
+.foursection .cards4 .cardone .btn1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 8px;
+  width: 79px;
+  height: 32px;
+  border: 0px;
+  color: white;
+  background: #43D167;
+}
+.foursection .cards4 .cardone img {
+  position: absolute;
+  left: 75px;
+  width: 60%;
+}
+.foursection .cards4 .star {
+  display: flex;
+  top: 290px;
+  position: absolute;
+  color: #FFDD45;
+}
+.foursection .cards4 .heart1 {
+  position: absolute;
+  right: 10px;
+  color: #DF4244;
+}
+.foursection .cards4 .money {
+  color: #F75145;
+  font-weight: bold;
+}
+.foursection .cards4 .end1 {
+  width: 312px;
+  height: 48px;
+  margin-top: 30px;
+  border: 1px solid #212121;
+  border-radius: 8px;
+  margin-bottom: 80px;
+}
+.foursection .cardtwo {
+  width: 360px;
+  height: 508px;
+  position: absolute;
+  background: #F9F9F9;
+  border-radius: 8px;
+}
+.foursection .flx1 {
+  display: flex;
+  flex-direction: column;
+}
+.foursection .flx1 p {
+  padding-top: 310px;
+  top: 10px;
+  left: 10px;
+  font-size: 16px;
+  font-family: "Rubik";
+  font-weight: 400;
+  line-height: 170%;
+}
+.foursection img {
+  position: absolute;
+  left: 75px;
+  width: 60%;
+}
+.foursection .btn2 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 8px;
+  width: 79px;
+  height: 32px;
+  border: 0px;
+  color: white;
+  background: #43D167;
+}
+.foursection .cardthree {
+  width: 360px;
+  height: 508px;
+  position: absolute;
+  background: #F9F9F9;
+  border-radius: 8px;
+}
+.foursection .hearticon {
+  position: absolute;
+  width: 5%;
+  left: 330px;
+}
+.foursection .flx2 {
+  display: flex;
+  flex-direction: column;
+}
+.foursection .flx2 p {
+  padding-top: 310px;
+  top: 10px;
+  left: 10px;
+  font-size: 16px;
+  font-family: "Rubik";
+  font-weight: 400;
+  line-height: 170%;
+}
+.foursection img {
+  position: absolute;
+  left: 75px;
+  width: 60%;
+}
+.foursection .btn2 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 8px;
+  width: 79px;
+  height: 32px;
+  border: 0px;
+  color: white;
+  background: #43D167;
+}
+
+.navbarsection .navbar-brand {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.navbarsection .iconserc .form-control {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 504px;
+  height: 48px;
+}
+.navbarsection .iconserc i {
+  position: absolute;
+  top: 65px;
+  right: 20px;
+}
+
+.fivesection {
+  height: 390px;
+  background: #F7F7F9;
+}
+.fivesection .bigsection {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+  background: #F7F7F9;
+}
+.fivesection .bigsection .leftsection {
+  width: 50%;
+}
+.fivesection .bigsection .leftsection .p1 {
+  margin-bottom: 45px;
+}
+.fivesection .bigsection .leftsection .p2 {
+  margin-bottom: 30px;
+}
+.fivesection .bigsection .leftsection .p3 {
+  margin-bottom: 50px;
+}
+.fivesection .bigsection .leftsection button {
+  width: 179px;
+  height: 48px;
+  opacity: 0.8;
+  border: 1px solid #171717;
+  border-radius: 8px;
+}
+.fivesection .bigsection .rightsection {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.fivesection .bigsection h4 {
+  margin-bottom: 20px;
+}
+
+footer {
+  display: flex;
+  gap: 500px;
+  align-items: center;
+  background: #FFFFFF;
+}
+footer .footleft p {
+  margin-top: 30px;
+}
+footer .footright {
+  display: flex;
+}
+footer .footright img {
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .one {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .two .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .cards2 {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 500px !important;
+  }
+  .threesection .cards3 {
+    display: flex;
+    flex-direction: column;
+    gap: 500px;
+  }
+  .foursection .cards4 {
+    display: flex;
+    flex-direction: column;
+    gap: 500px;
+  }
+  .fivesection {
+    padding-bottom: 100px;
+  }
+  .navbarsection h1 {
+    margin-bottom: 10px !important;
+  }
+  .navbarsection .form-control {
+    width: 160px !important;
+    height: 30px !important;
+    left: 0px !important;
+    margin-bottom: 60px !important;
+  }
+  .navbarsection i {
+    display: none;
+  }
+  .one .right1 {
+    padding-bottom: 100px;
+  }
+  .one .right1 img {
+    position: absolute;
+    width: 30%;
+    margin-top: 20px;
+    left: 80px;
+  }
+  .fivesection {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .bigsection {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .bigsection .leftsection {
+    width: 50%;
+  }
+  .bigsection .leftsection .p1 {
+    margin-bottom: 10px;
+  }
+  .bigsection .leftsection .p2 {
+    margin-bottom: 30px;
+  }
+  .bigsection .leftsection .p3 {
+    margin-bottom: 50px;
+  }
+  .bigsection .rightsection {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-top: 10px;
+  }
+  footer {
+    padding-top: 800px;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px;
+  }
+  footer img {
+    margin-top: 0px !important;
+  }
+}/*# sourceMappingURL=style.css.map */
