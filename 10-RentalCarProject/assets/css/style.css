@@ -1,0 +1,262 @@
+.container {
+  max-width: 1440px;
+  width: 100%;
+}
+
+.up {
+  padding-left: 40px;
+}
+
+.navbar {
+  background: #FFFFFF;
+  border: 1px solid rgba(195, 212, 233, 0.4);
+  padding-top: 20px;
+}
+.navbar .big {
+  display: flex;
+}
+.navbar .big .left1 {
+  width: 50%;
+  padding-bottom: 20px;
+  padding-top: 27px;
+}
+.navbar .big .left1 a,
+.navbar .big .left1 h1 {
+  text-decoration: none;
+  font-size: 32px;
+  color: #3563E9;
+}
+.navbar .big .left1 .search {
+  position: relative;
+  width: 250px;
+  height: 44px;
+  margin-left: 160px;
+  top: -65px;
+  background: #FFFFFF;
+  border: 1px solid rgba(195, 212, 233, 0.4);
+  border-radius: 70px;
+  padding-left: 40px;
+}
+.navbar .big .left1 .icon1 {
+  position: absolute;
+  left: 180px;
+  top: 95px;
+  z-index: 2;
+}
+.navbar .big .left1 .icon2 {
+  position: absolute;
+  left: 410px;
+  top: 95px;
+  z-index: 2;
+}
+.navbar .big .left1 .icon3 {
+  position: absolute;
+  left: 195px;
+  top: 114px;
+  z-index: 2;
+}
+.navbar .big .right1 {
+  width: 50%;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+.navbar .big .right1 .righticon {
+  display: flex;
+  gap: 35px;
+  color: #596780;
+}
+.navbar .big .right1 .fa4 {
+  position: relative;
+  top: 2px;
+}
+.navbar .big .right1 i {
+  border-radius: 300px;
+  border: 1px solid black;
+  width: 200%;
+  height: 100%;
+  opacity: 0.8;
+  border: 1px solid rgba(195, 212, 233, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-direction: row;
+}
+.big .bigleft {
+  color: white;
+  background-color: #54A6FF;
+  border-radius: 10px;
+  background-image: url(./../imgs/images/BG.png);
+  width: 640px;
+  height: 360px;
+  background-position: bottom;
+  background-size: cover;
+}
+.big .bigleft h1 {
+  padding-left: 10px;
+  font-size: 32px;
+}
+.big .bigleft p {
+  font-size: 16px;
+  padding-left: 10px;
+}
+.big .bigleft button {
+  margin-left: 10px;
+  width: 120px;
+  color: white;
+  height: 44px;
+  background: #3563E9;
+  border-radius: 4px;
+}
+.big .bigright {
+  color: white;
+  border-radius: 10px;
+  background-image: url(./../imgs/images/BG\ \(1\).png);
+  width: 640px;
+  height: 360px;
+  background-color: #3563E9;
+  border-radius: 10px;
+}
+.big .bigright h1 {
+  padding-left: 10px;
+  font-size: 32px;
+}
+.big .bigright p {
+  font-size: 16px;
+  padding-left: 10px;
+}
+.big .bigright button {
+  margin-left: 10px;
+  width: 120px;
+  color: white;
+  height: 44px;
+  background: #54A6FF;
+  border-radius: 4px;
+}
+
+.chekmark {
+  display: flex;
+  gap: 20px;
+  padding-top: 0px;
+  position: absolute;
+}
+
+.first {
+  display: flex;
+  gap: 650px;
+}
+
+.flx3 {
+  display: flex;
+}
+.flx3 .flx31 {
+  background: #FFFFFF;
+  padding-top: 40px;
+  padding-left: 10px;
+  display: flex;
+  width: 45%;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.flx3 .flx31 .col1 {
+  display: flex;
+  flex-direction: column;
+}
+.flx3 .flx31 .h1 h1 {
+  padding-bottom: 20px;
+}
+.flx3 .flx31 .pick {
+  display: flex;
+  gap: 50px;
+}
+.flx3 .flx32 {
+  display: flex;
+  width: 10%;
+}
+.flx3 .flx32 button {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  background: #3563E9;
+  border-radius: 10px;
+  top: 40px;
+  left: 35px;
+}
+.flx3 .flx33 {
+  margin-top: 20px;
+  padding-top: 40px;
+  margin-right: 10px;
+  display: flex;
+  width: 45%;
+  background: #FFFFFF;
+}
+.flx3 .flx33 .drop {
+  display: flex;
+  gap: 50px;
+}
+
+section {
+  background: #F6F7F9;
+  padding-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .container .big {
+    display: flex;
+  }
+  .container .big .left1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .big h1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .big i {
+    display: none !important;
+  }
+  .container .big .left1 {
+    display: none;
+  }
+  .container .big .left1 .small1 {
+    display: none;
+  }
+  .container .big .left1 .resp h1 {
+    margin-top: 10px;
+  }
+  .container .big form .search {
+    width: 250px !important;
+    height: 48px !important;
+    border-radius: 10px !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .container .big form .icon2 {
+    width: 50px;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  .container .bigright {
+    display: none;
+  }
+  .container .first {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .flx3 {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */
