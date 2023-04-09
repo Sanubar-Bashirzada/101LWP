@@ -1,7 +1,7 @@
-let info=prompt("info nu daxil edin");
+let information=prompt("Insert the information");
 if(!isNaN(info)) {
     alert("Bu rəqəmdir");
 }
 else {
-    alert(typeof String("info"));
+    alert(typeof String("information"));
 }
