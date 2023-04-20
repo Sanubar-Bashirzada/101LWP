@@ -19,20 +19,23 @@
 
 }
 
-.black h1 {
+.yellow h1 {
     font-size: 20px;
-    margin-left: 15px;
-    margin-top: 10px;
+    margin-left: 30px;
+   top: 75px;
     font-family: 'Roboto', sans-serif;
+    position: absolute;
 
 
 }
 
-.black p {
+.yellow p {
     font-size: 12px;
-    margin-left: 13px;
+    margin-left: 30px;
     margin-right: 15px;
     font-family: 'Roboto', sans-serif;
+    top: 110px;
+    position: absolute;
 }
 
 .yellow {
@@ -42,26 +45,26 @@
     color: white;
     background-color: rgba(238, 174, 4, 255);
     position: relative;
-    border-radius: 20px, 20px, 0px, 0px !important;
+    border-radius: 20px 20px 0px 0px ;
    
 
 }
 
 .bottom {
     position: relative;
-
-    border-radius: 0, 0, 20px, 20px !important;
+    border-radius: 0 0 20px 20px;
     width: 100%;
     height: 50%;
     background-color: rgba(237, 237, 237, 255);
 
 }
 
-.bottom h1 {
-    padding-top: 5px;
-    padding-top: 5px;
+ .bottom h1 {
+    font-size: 20px;
+    padding-left: 30px;
     font-family: 'Roboto', sans-serif;
-}
+
+} 
 
 .airnew {
     display: flex;
@@ -71,7 +74,7 @@
 .airnew button {
     width: 50px;
     height: 20px;
-    margin-top: 17px;
+    margin-top: 15px;
     margin-left: 25px;
     background-color: rgba(44, 208, 147, 255);
     color: white;
@@ -80,34 +83,42 @@
     border-radius: 3px;
 }
 
-.bottom p {
-    position: relative;
+ .bottom p {
+   position: absolute;
     font-size: 12px;
-    margin-top: 5px;
+    padding-left: 30px;
     font-family: 'Roboto', sans-serif;
+    top:35px;
+    
 
-}
+} 
 
 .star {
-    margin-left: 12px;
+    margin-left: 30px;
     font-size: 12px;
+    position: absolute;
+    top:67px ;
 }
 
 .fagrey {
     color: grey;
 }
 
-.bottom h2 {
+ .bottom h2 {
     font-size: 15px;
-    padding-left: 15px;
-    padding-top: 15px;
+    padding-left: 30px;
     font-family: 'Roboto', sans-serif;
-}
+    position: absolute;
+    top: 108px;
+    
+} 
 
 .numbflx {
     display: flex;
-    padding-left: 15px;
+    padding-left: 30px;
     gap: 20px;
+    position: absolute;
+    top:155px ;
 
 }
 
@@ -125,8 +136,10 @@ justify-content: center;
 
 .endbtns {
     display: flex;
-    padding-left: 15px;
+    padding-left: 30px;
     gap: 10px;
+    position: absolute;
+    top: 220px;
 
 }
 
@@ -147,30 +160,49 @@ justify-content: center;
 }
 
 .blur {
-    width: 150px;
-    height: 40px;
-    display: flex;
+    width: 120px;
+    height: 35px;
+    
+  display: flex;
+  flex-direction: row;
     align-items: center;
+    justify-content: space-around;
     background-color: rgba(23, 72, 122, 255);
     color: white;
     position: absolute;
-    right: -16px;
-    bottom: 16px;
     border-radius: 5px;
     border: 0px;
+   left: 190px;
+   top:-10px ;
+   
+ 
+   
 }
-
-.endbtns h1 {
+.blur h1 {
+    font-size:15px ;
+   right: 0px;
+    
+}
+.blur p {
     font-size: 15px;
+    color: white;
+    top:-6px ;
+    left:-14px ;
 
 }
+
+ .bottom h3 {
+    font-size: 12px;
+    position: absolute;
+    top: 180px ;
+    padding-left: 30px;
+
+} 
 
 .img1 {
-
-    width: 100px;
-    height: 65px;
+    width:25% ;
     margin-top: 10px;
-    padding-left: 15px;
+    padding-left: 30px;
 }
 
 .img2 {
