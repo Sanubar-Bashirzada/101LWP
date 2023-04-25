@@ -2,22 +2,20 @@ const btn=document.getElementById("btn");
 const cont=document.getElementById("cont");
 const cards=document.getElementById("cards");
 const icon=document.getElementById("icon");
+let sun=true
 btn.addEventListener("click",function(){
-    // cont.style.backgroundColor="black";
-    // cards.style.backgroundColor="#2f2f2f";
-    // cards.style.color="white";
+    
   
     cards.classList.toggle("dark");
     cont.classList.toggle("dark1")  
-  // fa-sun.classList.remove(" fa-sun");
-  // fa-moon.classList.add("fa-moon");
+ 
 
-  if (icon.className="fas fa-sun") {
+  if (sun) {
    icon.className="fas fa-moon"
-   
+   sun=false;
   }
    else {
-    icon.className="fas fa-moon"
-   
+    icon.className="fas fa-sun"
+   sun=true;
    }
 })
