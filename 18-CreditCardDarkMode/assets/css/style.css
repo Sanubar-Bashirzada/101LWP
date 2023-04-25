@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.card {
+   
+    width: 550px;
+    border-radius: 20px;
+    height: 300px;
+    padding-left: 20px;
+    position: relative;
+    margin-top: 150px;
+    box-shadow: 0px 0px 20px 0px gray;
+    background-image: url(/assets/imgs/pngimg.com\ -\ world_map_PNG27.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position:center;
+  margin-bottom: 250px;
+  color: rgb(107, 106, 106);
+  
+  
+  
+}
+.flx {
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   margin-top: 30px;
+   
+   
+   
+
+}
+.valid {
+    color: #cabdbd;
+}
+.logoflx {
+   position: absolute;
+   top: 200px;
+  left: 400px;
+  
+}
+.numb {
+    font-size: 35px;
+}
+.buton{
+  position: absolute;
+  top: 70px;
+  right: 400px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+i {
+    font-size: 25px;
+    
+}
+
+.dark{
+    background-color:#2f2f2f;
+    color: #e6e6e6;
+}
+.dark1 {
+    background-color: black;
+}
