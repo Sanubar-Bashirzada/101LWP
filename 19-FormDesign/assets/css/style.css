@@ -1,0 +1,82 @@
+.containerone {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.twoo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+    
+}
+.p1 {
+    font-size: 30px;
+}
+.btn11{
+    width: 670px;
+    height: 40px;
+    background-color: #41afec;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+
+}
+.btn22{
+    width: 670px;
+    height: 40px;
+    background-color: #3f5e9e;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+}
+.fa1 {
+    margin-right: 10px;
+}
+.hrdivider {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .hrdivider span {
+    position: absolute;
+    top: 5px;
+    background: #fff;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: 600;
+    left: 300px;
+  }
+ 
+  .foot {
+    display: flex;
+    gap: 5px;
+  }
+  .foot p {
+    font-size: 20px;
+  }
+  .blue1 {
+    color: #41afec ;
+  }
+  
+  .custom-select {
+    display: inline-block;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+    line-height: 1.5;
+    color: #495057;
+    vertical-align: middle;
+    background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right 0.75rem center;
+    background-size: 8px 10px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 300px;
+  }
