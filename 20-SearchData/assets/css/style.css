@@ -1,0 +1,63 @@
+.container {
+    width: 100%;
+    display: flex;
+    
+    
+   
+}
+.formstudents {
+    width: 30%;
+    height: 600px;
+    border: 1px solid black;
+    background-image: url(/assets/images/formback.jpg);
+    background-size: cover;
+    background-position: top;
+    opacity: 0.5;
+    box-shadow:10px 0px 30px 0px black;
+}
+.backimg{
+    width: 70%;
+    height: 600px;
+    border: 1px solid black;
+    background-image: url(/assets/images/pexels-fauxels-3182777.jpg);
+   background-position: bottom;
+   background-size: cover;
+  
+}
+.surn {
+    width: 89px;
+}
+.checkcls{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.lbl {
+    background-color: white;
+    width: 60px;
+    border-radius: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    height: 37px;
+}
+.btncls {
+    width: 100px;
+    border: 0px solid;
+   border-radius: 5px;
+   height: 37px;
+}
+.btncls1 {
+    width: 150px;
+    height: 37px;
+    border: 0px solid;
+    border-radius: 5px;
+  margin-left: 100px;
+  margin-top:15px ;
+    
+}
+.formbox{
+    padding-top: 120px;
+}
